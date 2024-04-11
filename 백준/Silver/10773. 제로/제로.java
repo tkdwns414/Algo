@@ -9,6 +9,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		StringBuilder sb = new StringBuilder();
 		
 		int num = Integer.parseInt(br.readLine());
 		Stack<Integer> stk = new Stack<>();
@@ -19,12 +20,13 @@ public class Main {
 			else stk.push(n);
 		}
 		
-		Integer sum = 0;
+		int sum = 0;
 		for (int item : stk) {
 			sum += item;
 		}
 		
-		bw.write(sum.toString());
+		sb.append(sum);
+		bw.write(sb.toString());
 		bw.flush();
 		bw.close();
 		return;
