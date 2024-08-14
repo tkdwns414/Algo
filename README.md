@@ -6,7 +6,7 @@
 ### 🚀 Bronze
 | 문제번호 | 링크 |
 | ----- | ----- |
-|1934. 최소공배수|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1934.%E2%80%85%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/README.md)|
+|1934. 최소공배수|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1934.%E2%80%85%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98/%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98.java)|
 |2309. 일곱 난쟁이|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2309.%E2%80%85%EC%9D%BC%EA%B3%B1%E2%80%85%EB%82%9C%EC%9F%81%EC%9D%B4/README.md)|
 |2748. 피보나치 수 2|[링크](./%EB%B0%B1%EC%A4%80/Bronze/2748.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%EC%88%98%E2%80%852/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%EC%88%98%E2%80%852.java)|
 ### 🚀 Gold
