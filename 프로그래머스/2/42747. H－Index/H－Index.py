@@ -1,10 +1,5 @@
-from collections import Counter
-
 def solution(citations):
-    
-    max_h = 0
-    counter = Counter(citations)
-    
+    max_h = 0    
     for h in range(1, 10001):
         check = [citation >= h for citation in citations]
         if check.count(True) >= h and check.count(False) <= h:
