@@ -10,7 +10,7 @@ def solution(number, k):
     while len(stack) > len(number) - k:
         stack.pop()
         
-    answer = str(int(''.join(stack)))
+    answer = ''.join(stack)
     return answer
 
 # 왜 어디서 본 적 있는 문제같지
