@@ -1,16 +1,14 @@
 -- 코드를 작성해주세요
-SELECT quarter, COUNT(*) as ecoli_count
-FROM (
-    SELECT
-        CASE
-            WHEN (month(differentiation_date) between 1 and 3) THEN '1Q'
-            WHEN (month(differentiation_date) between 4 and 6) THEN '2Q'
-            WHEN (month(differentiation_date) between 7 and 9) THEN '3Q'
-            ELSE '4Q'
-        END AS QUARTER
-    FROM
-        ECOLI_DATA
-) q
+SELECT
+    CASE
+        WHEN (month(differentiation_date) between 1 and 3) THEN '1Q'
+        WHEN (month(differentiation_date) between 4 and 6) THEN '2Q'
+        WHEN (month(differentiation_date) between 7 and 9) THEN '3Q'
+        ELSE '4Q'
+    END AS quarter,
+    COUNT(*) AS ecoli_count
+FROM
+    ECOLI_DATA
 GROUP BY quarter
 order by quarter
 
